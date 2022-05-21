@@ -1,0 +1,139 @@
+.header {
+	margin: 0 auto;
+	max-width: 1785px;
+	height: 97px;
+
+	&__wrapper {
+		margin-top: 26px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__menu {
+		width: 620px;
+		margin-left: -33px;
+		ul {
+			padding: 0 0;
+			display: flex;
+			justify-content: space-between;
+			list-style-type: none;
+			li {
+				font-size: 16px;
+				font-weight: 700;
+				line-height: 23px;
+				text-align: left;
+				text-transform: uppercase;
+				color: $second-color
+			}
+		}
+	}
+
+	&__contacts {
+		width: 387px;
+		margin-left: 38px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__phone {
+		display: flex;
+		align-items: center;
+		font-size: 16px;
+		font-weight: 400;
+		letter-spacing: 0.13em;
+		color: $second-color;
+		span {
+			font-size: 16px;
+			font-weight: 700;
+			letter-spacing: 0.08em;
+			color: black;
+		}
+	}
+
+	&__callBack {
+		line-height: 30px;
+		font-size: 14px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: rgba(174, 34, 54, 1);
+		border-bottom: 1px dashed rgba(174, 34, 54, 1);
+	}
+
+	&__items {
+		width: 200px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__wrapperItems {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.search-icon {
+			font-size: 22px;
+			color: $second-color;
+		}
+		.heart-icon {
+			color: $main-color;
+			font-size: 23px;
+		}
+		.cart-icon {
+			font-size: 24px;
+		}
+		span {
+			transform: translateY(5%);
+		}
+	}
+}
+
+.hamburger {
+	display: block;
+	width: 56px;
+	height: 56px;
+	transform: translateX(-8px);
+	border: 1px solid $second-color;
+	border-radius: 100%;
+	&__wrapper {
+		margin: 17px;
+		span {
+			display: block;
+			height: 2px;
+			width: 22px;
+			text-align: center;
+			background-color: $second-color;
+			margin-bottom: 7px;
+		}
+	}
+		
+}
+		
+
+.social {
+	width: 116px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: $second-color;
+	.vk-icon {
+		font-size: 20px;
+	}
+	.telegram-icon {
+		font-size: 20px;
+	}
+	.instagram-icon {
+		font-size: 16px;
+	}
+	.whatsapp-icon {
+		font-size: 16px;
+	}
+}
+
+
+
+.header__wrapperItems {
+	width: 56px;
+	height: 56px;
+	border: 1px solid rgba(229, 229, 229, 1);
+	border-radius: 100%;
+}
