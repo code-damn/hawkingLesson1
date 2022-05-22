@@ -1,0 +1,40 @@
+.process {
+    height: 395px;
+    margin-top: 138px;
+    &__title {
+        margin-top: 16px;
+    }
+    &__list {
+        height: 300px;
+        width: 609px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        list-style-type: none;
+        counter-reset: myCounter;
+        position: relative;
+        padding: 0;
+        margin-top: 28px;
+        ::before {
+            counter-increment: myCounter;
+            content:counter(myCounter);
+            display: block;
+            position: absolute;
+            font-size: 70px;
+            font-weight: 700;
+            line-height: 85px;
+            color: $main-color;
+            opacity: 20%;
+            left: -30px;
+            top: 0%;
+        }
+    }
+    &__item {
+        position: relative;
+        padding: 26px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}
+

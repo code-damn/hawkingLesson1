@@ -1,0 +1,17 @@
+.result {
+    &__title {
+        margin: 16px 0 66px 0;
+    }
+    &__subtitle {
+        margin-bottom: 48px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    &__photos {
+        margin-bottom: 136px;
+    }
+    &__photo {
+        width: 300px;
+    }
+}

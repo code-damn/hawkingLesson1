@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 * {
+	box-sizing: border-box;
+}
+
+* {
 	font-family: 'Montserrat', sans-serif;	
 }
 
@@ -10,10 +14,26 @@
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1218px;
 	margin: 0 auto;
-	
+}
+
+.title {
+	font-size: 40px;
+    font-weight: 600;
+    text-align: left;
 }
 
 @import "variables";
 @import "header";
+@import "main";
+@import "advantages";
+@import "process";
+@import "reasons";
+@import "consultation";
+@import "form";
+@import "demonstration";
+@import "result";
+@import "footer";
+
+

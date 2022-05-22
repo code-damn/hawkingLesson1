@@ -1,0 +1,17 @@
+.demonstration {
+    margin-bottom: 99px;
+    &__subtitle {
+        margin-bottom: 66px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    &__video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 538px;
+        margin: 50px 30px;
+        background: url('../img/video_bg.png') no-repeat
+    }
+}

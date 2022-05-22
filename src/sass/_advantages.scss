@@ -1,0 +1,47 @@
+.advantages {
+    position: relative;
+    &__title {
+        margin: 56px 0 0 0;
+    }
+    &__subtitle {
+        margin: 8px 0 43px 0;
+        font-size: 50px;
+        font-weight: 800;
+        text-align: left;
+        text-transform: uppercase;
+        color: $main-color;
+    }
+    &__list {
+        padding-left: 55px;
+        position: relative;
+        list-style-type: none;
+        ::before {
+            content: '';
+            display: block;
+            position: absolute;
+            height: 9px;
+            width: 9px;
+            left: -25px;
+            top: 35%;
+            border-radius: 100px;
+            background-color: rgba(234, 102, 40, 1);
+        }
+    }
+    &__item {
+        position: relative;
+        margin-bottom: 30px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+    }
+    &__img {
+        position: relative;
+    }
+    &__flue {
+        display: block;
+        position: absolute;
+        top: -578px;
+        right: -163px;
+        z-index: -5;
+    }
+}
